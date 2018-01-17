@@ -1,5 +1,5 @@
 <?php
-require "../layout/layout.php";
+require "../Layout/layout.php";
 ?>
 
 <form action="login.php" method="post" class="form-horizontal" style="text-align: center; width: 130%; padding-top: 10%;">

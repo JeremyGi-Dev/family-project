@@ -25,8 +25,8 @@ class config {
             $db = new PDO("mysql:host=localhost;dbname=project", "root", "lol");
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-
         } catch (\PDOException $e) {
+
                 echo 'Connection failed: ' . $e->getMessage();
         }
 
