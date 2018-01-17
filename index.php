@@ -1,0 +1,1 @@
+<?php require "App/layout/layout.php";
