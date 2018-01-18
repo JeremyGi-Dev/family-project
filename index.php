@@ -1,1 +1,2 @@
-<?php require "App/Layout/layout.php";
+<?php require "Layout/layout.php";
+

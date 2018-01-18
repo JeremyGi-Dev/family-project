@@ -1,5 +1,5 @@
 <?php
-require "../Layout/layout.php";
+require "Layout/layout.php";
 ?>
 
 <form action="login.php" method="post" class="form-horizontal" style="text-align: center; width: 130%; padding-top: 10%;">
@@ -22,6 +22,11 @@ require "../Layout/layout.php";
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-6">
             <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-6">
+            <a class="btn btn-danger" href="index.php" >Retour</a>
         </div>
     </div>
 </form>
